@@ -1,0 +1,62 @@
+.task-card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  cursor: move;
+  border: 1px solid #e5e7eb;
+}
+
+.task-card:hover {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.task-title {
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1f2937;
+}
+
+.task-priority {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.priority-critical { background: #ef4444; color: white; }
+.priority-high { background: #f97316; color: white; }
+.priority-medium { background: #eab308; color: white; }
+.priority-low { background: #22c55e; color: white; }
+
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.task-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.task-date {
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.date-today { background: #fef9c3; color: #854d0e; }
+.date-overdue { background: #fee2e2; color: #991b1b; }
+.date-normal { background: #f3f4f6; color: #4b5563; }
