@@ -81,15 +81,9 @@ I implemented custom drag-and-drop using native HTML5 events without any librari
 
 ## Lighthouse Score
 
-![Lighthouse Score]("C:\Users\Devika\Pictures\Lighthouse.png"
-)
+![Lighthouse Score](<img width="1914" height="1089" alt="Screenshot 2026-03-24 151745" src="https://github.com/user-attachments/assets/1e0b3cc1-d190-47d4-b61b-bb14e7087886" />
 
-| Category | Score |
-|----------|-------|
-| Performance | 100 |
-| Accessibility | 100 |
-| Best Practices | 100 |
-| SEO | 100 |
+)
 
 ---
 
